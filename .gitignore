@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+secrets/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
